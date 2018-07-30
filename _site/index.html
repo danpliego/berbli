@@ -1,7 +1,7 @@
 <html>
     <head>
       <head>
-  <title>Sinergia</title>
+  <title>Berbli | Logistic Solutions</title>
   <link rel="shortcut icon" href="favicon.ico"/>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,9 +21,9 @@
 
     </head>
     <body>
-      <div class="hero">
+      <div class="hero text-light">
   <div class="container">  
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg py-4 mb-5">
   <a class="navbar-brand" href="/"><img src="assets/images/logo.svg" alt="Berbli"></a>
   <button class="navbar-toggler text-info" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fal fa-bars"></i>
@@ -31,27 +31,27 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="#" data-toggle="modal">Home</a>
+        <a href="#" class="nav-link text-light">HOME<span class="text-primary">.</span></a>
       </li>
       <li class="nav-item">
-        <a href="#" data-toggle="modal">Services</a>
+        <a href="#services" class="nav-link text-light">SERVICES<span class="text-primary">.</span></a>
       </li>
       <li class="nav-item">
-        <a href="#" data-toggle="modal">Contact</a>
+        <a href="#contact" class="nav-link text-light">CONTACT<span class="text-primary">.</span></a>
       </li>
     </ul>
   </div>
 </nav>
-    <div class="row my-5 justify-content-end">
-      <div class="col-sm-7">
+    <div class="row mb-5 justify-content-end">
+      <div class="col-sm-6 my-5">
         <h1>Complete logistics solutions customized to your needs.</h1>
-        <p class="lead">We deliver <span class="text-primary">compliance, security, and operational integrity </span>during this critical stage in the supply chain.</p>
-        <a href="#" class="btn btn-primary btn-lg">GET IN TOUCH</a>
+        <p class="lead mt-3">We deliver <span class="text-primary">compliance, security, and operational integrity </span>during this critical stage in the supply chain.</p>
+        <a href="#" class="btn btn-light btn-lg mt-4 mb-5">GET IN TOUCH</a>
       </div>
     </div>
   </div>
 </div>
-<div class="mission">
+<div class="mission mb-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-10">
@@ -70,58 +70,72 @@
   </div>
 </div>
 
-      <div class="container">
+      <div class="container" id="services">
   <div class="py-5">
-    <h4>OUR SERVICES</h4>
+    <h6>OUR SERVICES</h6>
   </div>
-  <div class="row">
-    <div class="col-sm-6">    
-      <div class="card p-5">
+  <div class="row warehousing">
+    <div class="col-sm-6 mt-4">    
+      <div class="card">
         <h1>Warehousing</h1>
         <p>
           Storage, warehouse control, FIFO methodology, Material handling and storage requirements, focus in quality.
         </p>
       </div>
     </div>
+    <div class="col-sm-6 sect-img">
+      <img src="assets/images/warehouse.png" class="img-fluid">  
+    </div>
   </div>
-  <div class="row justify-content-end">
-    <div class="col-sm-6">    
-      <div class="card p-5">
+  <div class="row customer justify-content-end">
+    <div class="col-sm-6 sect-img">
+      <img src="assets/images/customer.png" class="img-fluid">  
+    </div>
+    <div class="col-sm-6 sect-content">    
+      <div class="card">
         <h1>Customer Service</h1>
         <p>Fast response to every problem and the highest customer satisfaction.</p>
       </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-sm-6">    
-      <div class="card p-5">
+  <div class="row distribution">
+    <div class="col-sm-6 sect-content">    
+      <div class="card">
         <h1>
           Distribution
         </h1>
         <p>We offer the freight you need in a costly and timely mode, Shipping to the principal industrial cities in Mexico, expediting services, controlled shipping for time, sensitive deliveries.</p>
       </div>
     </div>
+    <div class="col-sm-6 sect-img">
+      <img src="assets/images/distribution.png" class="img-fluid">  
+    </div>
   </div>
-  <div class="row justify-content-end">
-    <div class="col-sm-7">    
-      <div class="card p-5">
+  <div class="row import justify-content-end">
+    <div class="col-sm-5 sect-img">
+      <img src="assets/images/import.png" class="img-fluid">  
+    </div>
+    <div class="col-sm-6 sect-content">    
+      <div class="card">
         <h1>Import & Export</h1>
         <p>Focus on selling your products to your target import and export countries, provide assurance for consumers, brands and companies that products comply with the importing countries regulatory standards.</p>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6">    
-      <div class="card p-5">
+  <div class="row containment">
+    <div class="col-sm-6 sect-content">    
+      <div class="card">
         <h1>Containment</h1>
         <p>Sorting, rework, segregation and inspection.</p>
       </div>
     </div>
+    <div class="col-sm-6 sect-img">
+      <img src="assets/images/containment.png" class="img-fluid">  
+    </div>
   </div>
 </div>
 
-      <div class="bg-dark py-5" id="contact_us">
+      <div class="bg-dark" id="contact">
   <div class="my-4">
     <div class="container contact-container">
       <div class="row">
@@ -130,28 +144,23 @@
           <form action="https://formspree.io/danielpliego@gmail.com"
                 method="POST">
               <div class="form-group">
-                <input type="text" name="name" class="form-control bg-dark input-lg" placeholder="Nombre">
+                <input type="text" name="name" class="form-control bg-dark input-lg" placeholder="Name">
               </div>
               <div class="form-group">
-                <input type="email" name="_replyto" class="form-control bg-dark input-lg" placeholder="Correo electrónico">
+                <input type="email" name="_replyto" class="form-control bg-dark input-lg" placeholder="Email">
               </div>
               <div class="form-group">
-                <input type="text" name="phone" class="form-control bg-dark input-lg" placeholder="Celular (opcional)">
+                <input type="text" name="phone" class="form-control bg-dark input-lg" placeholder="Phone">
               </div>
               <div class="form-group">
-                <textarea name="mensaje" rows="5" class="form-control bg-dark" placeholder="Mensaje"></textarea>
+                <textarea name="mensaje" rows="5" class="form-control bg-dark" placeholder="Message"></textarea>
               </div>
               <input type="submit" value="ENVIAR" class="btn btn-primary btn-lg">
           </form>
         </div>
         <div class="col-sm-5 contact-info">
           <div class="px-5">
-            <img src="assets/images/logo-footer.svg" alt="" width="120">
-            <p class="text-light pt-3">
-              Concepción Beisteguí 705,
-              <br>
-              Del Valle Centro, CDMX
-            </p>
+            <img src="assets/images/logo.svg">
             <ul class="fa-ul pt-3">
               <li class="pb-2">
                 <a class="text-light" href="callto:5516607641">
@@ -161,14 +170,8 @@
               </li>
               <li class="pb-2">
                 <a class="text-light" href="mailto:contacto@sinergialab.mx">
-                  <span class="fa-li text-danger"><i class="fal fa-envelope-open"></i></span>
-                  contacto@sinergialab.mx
-                </a>
-              </li>
-              <li class="pb-2">
-                <a class="text-light" target="_blank" href="http://instagram.com/sinergialabmx">
-                  <span class="fa-li text-warning"><i class="fab fa-instagram"></i></span>
-                  sinergialabmx
+                  <span class="fa-li text-primary"><i class="fal fa-envelope-open"></i></span>
+                  contact@berbli.com
                 </a>
               </li>
             </ul>
