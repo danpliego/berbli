@@ -2,16 +2,9 @@
     <head>
       {% include head.html %}
     </head>
-    <body class="inicio">
-      <div class="container">
-        <div class="main bg-white">
-          <div class="header">
-            <img src="assets/images/gradient-shadow.png" width="93" class="gradient-shadow">
-            {% include header.html %}
-            {{content}}
-          </div>
-        </div>
-      </div>
+    <body>
+      {% include hero.html %}
+      {{content}}
       {% include footer.html %}
       <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
       <script src="{{'/node_modules/popper.js/dist/popper.min.js' | prepend: site.baseurl}}"></script>

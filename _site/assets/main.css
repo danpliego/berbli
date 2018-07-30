@@ -6532,41 +6532,7 @@ h1, h2, h3, h4, h5, h6, label {
   .btn-primary:hover {
     box-shadow: 1px 1px 20px rgba(158, 150, 241, 0.9); }
 
-.main {
-  margin-top: 3rem;
-  box-shadow: 0 1.3rem 1.3rem rgba(0, 0, 0, 0.05); }
-  .main .header {
-    padding: 3rem;
-    position: relative; }
-  .main .gradient-shadow {
-    position: absolute;
-    left: -40px;
-    top: -33px; }
-
-.item {
-  position: relative; }
-  .item .item-box {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    display: none;
-    text-align: center;
-    padding: 2rem;
-    color: #fff; }
-    .item .item-box.primary {
-      background: #9E96F1; }
-    .item .item-box.danger {
-      background: #FD576F; }
-    .item .item-box.warning {
-      background: #FD9E10; }
-  .item .item-desc {
-    align-self: center;
-    flex: 1; }
-  .item:hover .item-box {
-    display: flex; }
-
-#contacto {
+#contact {
   position: relative;
   padding-bottom: 9rem !important; }
 
@@ -6595,28 +6561,3 @@ h1, h2, h3, h4, h5, h6, label {
 
 .contact-info {
   font-size: 1.5rem; }
-
-@media (max-width: 767.98px) {
-  .main .header {
-    padding: 1.5rem; }
-    .main .header h1 {
-      font-size: 2rem;
-      margin-top: -2rem; }
-
-  #portafolio h4 {
-    padding-top: 0 !important; }
-
-  .gradient-shadow-footer {
-    display: none; }
-
-  .contact-info > div {
-    padding: 2rem 0 !important; }
-
-  .item {
-    margin-bottom: 1.5rem; }
-    .item .item-box {
-      display: flex;
-      padding: 1rem;
-      position: relative; }
-      .item .item-box h3 {
-        font-size: 1.5rem; } }
