@@ -6579,6 +6579,9 @@ h6 {
     left: 0; }
   #services .customer .card {
     border-color: #FF8E1D; }
+  #services .customer .customer-b {
+    position: absolute;
+    top: -100px; }
 #services .distribution {
   min-height: 500px; }
   #services .distribution .sect-img {
@@ -6600,6 +6603,9 @@ h6 {
     right: 0; }
   #services .containment .card {
     border-color: #C2FF1A; }
+  #services .containment .containment-b {
+    position: absolute;
+    top: -100px; }
 
 #contact {
   padding-top: 12rem;
@@ -6631,3 +6637,30 @@ h6 {
 
 .contact-info {
   font-size: 1.5rem; }
+
+@media (max-width: 767.98px) {
+  .contact-info {
+    margin-top: 2rem; }
+
+  #services .sect-img {
+    margin-top: 0 !important;
+    position: relative !important;
+    max-width: none !important;
+    flex: 1 !important; }
+
+  #services .row:not(.justify-content-end) .col-sm-6:first-child {
+    order: 2; }
+  #services .row:not(.justify-content-end) .col-sm-6:last-child {
+    order: 1; }
+  #services .row:not(.justify-content-end) .card {
+    padding: 2rem; }
+
+  .customer-b, .containment-b {
+    display: none !important; } }
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .container {
+    width: 95%;
+    max-width: none; }
+
+  #services .card {
+    padding: 2rem; } }
